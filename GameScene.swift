@@ -42,4 +42,18 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
                 self.powerUp.bubble.position.x = touch.location(in: self).x
             }
         }
+            
+            
+            ----------------------------------------------------------------------------------------------------------------------------
+             //gameScene
+            
+            if defaults.integer(forKey: "maxHearts") == 4 {
+                //heart = 3
+                 heart = 4
+            }else {
+                 heart = 2
+            }
+
         
+
+            ----------------------------------------------------------------------------------------------------------------------------
