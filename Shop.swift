@@ -48,8 +48,8 @@ class Shop: UIViewController {
         items.append(newItem)
         
         let newItem1 = Item()
-        newItem1.title = "Extra Life"
-        newItem1.body = "Gives an extra life"
+        newItem1.title = "Double Health"
+        newItem1.body = "Gives you double the hearts"
         newItem1.image = "heart.png"
         newItem1.cost = 50000
         items.append(newItem1)
