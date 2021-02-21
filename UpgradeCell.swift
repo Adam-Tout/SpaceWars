@@ -140,8 +140,8 @@ class UpgradeCell: UITableViewCell {
             
                 
         
-        if typeUpgrade.text == "Extra Life" {
-            maxHearts = 3
+         if typeUpgrade.text == "Double Health" {
+            maxHearts = 5
             progressViewBar.progress = 1
             arrayCounter[theExactPositionInTheArray] += 1
             
