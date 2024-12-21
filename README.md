@@ -1,5 +1,5 @@
 # SpaceWars
-This contains some of the classes used for the SpaceWar game(More to come in the future when the Game is published). It includes classes PowerUp and Shop.
+This contains some of the classes used for the SpaceWar game. It includes classes PowerUp and Shop.
 
 The class PowerUp makes the powerups and allows them to fall from random points on the screen down. If the player collects any of them, they will receive a unique ability that will assist them in fighting off the aliens.
 
